@@ -10,14 +10,137 @@
       href="https://placekitten.com/96/139"
       type="image/x-icon"
     />
+    <link
+      rel="stylesheet"
+      href="./style//index.css"
+    />
     <script
       src="https://unpkg.com/htmx.org@1.9.10"
       integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
       crossorigin="anonymous"
     ></script>
   </head>
-  <body>
-    <h1>Hello HTML</h1>
-    <img src="img/jedi.jpeg" alt="jedi" />
+  <body class="bg-white">
+    <header class="header">
+      <section>
+        <nav class="nav flex justify-content-space-between align-items-center mx-auto">
+          <div class="flex align-items-center">
+            <menu class="flex menu">
+              <li class="menu-item">
+                <a class="menu-link" href="#">Home</a>
+              </li>
+              <li class="menu-item">
+                <a class="menu-link" href="#">Product</a>
+              </li>
+              <li class="menu-item">
+                <a class="menu-link" href="#">Pricing</a>
+              </li>
+              <li class="menu-item">
+                <a class="menu-link" href="#">About</a>
+              </li>
+              <li class="menu-item">
+                <a class="menu-link" href="#">Contact</a>
+              </li>
+            </menu>
+            <img class="logo" src="./img/logo.svg" alt="logo" />
+          </div>
+          <div class="nav-right">
+            <ul class="flex">
+              <li class="socials-item">
+                <a href="#" target="_blank">
+                  <img src="./img/twitter-outlined.svg" alt="twitter" />
+                </a>
+              </li>
+              <li class="socials-item">
+                <a href="#" target="_blank">
+                  <img src="./img/facebook-filled.svg" alt="facebook" />
+                </a>
+              </li>
+              <li class="socials-item">
+                <a href="#" target="_blank">
+                  <img src="./img/linkedin-filled.svg" alt="linkedin" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </section>
+      <section class="hero mx-auto">
+        <div class="container mx-auto hero-container">
+          <div class="hero-top mx-auto text-center">
+            <h1 class="heading-1 text-white">The best products start with Figma</h1>
+          </div>
+          <div class="hero-bottom text-center">
+            <h2 class="heading-4 text-white">Most calendars are designed for teams. Slate is designed for freelancers</h4>
+          </div>
+        </div>
+        <div class="container hero-action-container mx-auto">
+          <button class="master-btn full-width">Try for free</button>
+        </div>
+      </section>
+    </header>
+
+    <section class="features-section">
+      <div class="features-head mx-auto text-center">
+        <div class="features-title">
+          <h3 class="heading-2">Features</h3>
+        </div>
+        <div class="features-subtitle">
+          <h4 class="heading-4">Most calendars are designed for teams. Slate is designed for freelancers</h4>
+        </div>
+      </div>
+
+      <ul class="feature-items mx-auto flex wrap justify-content-space-between">
+        <li class="feature-item text-center">
+          <img class="feature-icon" width="61px" height="61px" src="./img/mdi_drawing.svg" />
+          <h3 class="feature-title heading-3">OpenType features Variable fonts</h3>
+          <p class="feature-text text-paragraph">Slate helps you see how 
+            many more days you need 
+            to work to reach your 
+            financial goal.</p>
+        </li>
+        <li class="feature-item text-center">
+          <img class="feature-icon" width="61px" height="61px" src="./img/mdi_draw.svg" />
+          <h3 class="feature-title heading-3">Design with real data</h3>
+          <p class="feature-text text-paragraph">Slate helps you see how 
+            many more days you need 
+            to work to reach your 
+            financial goal.</p>
+        </li>
+        <li class="feature-item text-center">
+          <img class="feature-icon" width="61px" height="61px" src="./img/mdi_brush.svg" />
+          <h3 class="feature-title heading-3">Fastest way to take action</h3>
+          <p class="feature-text text-paragraph">Slate helps you see how 
+            many more days you need 
+            to work to reach your 
+            financial goal.</p>
+        </li>
+      </ul>
+      <div class="feature-video mx-auto relative-position">
+        <video style="width: 100%;" poster="./img/video-poster.webp"></video>
+        <button class="play-btn flex justify-content-center align-items-center absolute-full-position">
+          <img src="./img/el_play.svg" alt="Play"/>
+        </button>
+      </div>
+    </section>
+    <section class="organize-section">
+      <div class="organize-container mx-auto flex justify-content-space-between wrap">
+        <div class="organize-left flex flex-column justify-content-center">
+          <div class="organize-title">
+            <h2 class="heading-2">Fastest way to organize</h2>
+          </div>
+          <div class="organize-text">
+            <h4 class="heading-4">Most calendars are designed for teams. Slate is designed for freelancers</h4>
+          </div>
+          <button class="master-btn organize-btn">Try for free</button>
+        </div>
+        <div class="organize-img">
+          <img src="./img/macbook-pro.png" alt="Macbook pro" />
+        </div>
+      </div>
+    </section>
+    <section>
+      
+    </section>
   </body>
 </html>

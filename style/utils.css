@@ -1,0 +1,113 @@
+.container {
+    padding: 20px;
+}
+
+.mx-auto {
+    margin: 0 auto;
+}
+
+.heading-1, .heading-4 {
+    color: var(--text);
+    letter-spacing: 0.2px;
+}
+
+.heading-1 {
+    font-size: 74px;
+    line-height: 84px;
+    
+}
+
+.heading-2 {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 55px;
+}
+
+.heading-3 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+}
+
+.heading-4 {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+}
+
+.text-paragraph {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+}
+
+.text-white {
+    color: #FFFFFF
+}
+
+.text-center {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.align-self-start {
+    align-self: self-start;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.justify-content-space-between {
+    justify-content: space-between;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.bg-white {
+    background-color: #FFFFFF;
+}
+
+.master-btn {
+    height: 56px;
+    border-radius: 35px;
+    padding: 18px 38px;
+    background-color: var(--primary);
+    color: #FFFFFF;
+    border: none;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    cursor: pointer;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.relative-position {
+    position: relative;
+}
+
+.absolute-full-position {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
